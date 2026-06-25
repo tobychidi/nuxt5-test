@@ -1,0 +1,31 @@
+{
+   "editor.codeActionsOnSave": {
+      "source.addMissingImports": "never",
+      "source.fixAll.oxc": "always"
+   },
+   "editor.formatOnSave": true,
+   "editor.tabSize": 3,
+   "files.associations": {
+      "*.css": "tailwindcss"
+   },
+   "git.autofetch": true,
+   "oxc.enable": true,
+   "oxc.typeAware": true,
+   "tailwindCSS.classAttributes": ["class", "ui", "active-class"],
+   "js/ts.tsserver.experimental.enableProjectDiagnostics": false,
+   "js/ts.tsdk.path": "node_modules/typescript/lib",
+   "workbench.editor.customLabels.patterns": {
+      "**/app/**/index.ts": "${dirname} - index.ts",
+      "**/app/**/index.vue": "${dirname} - index.vue",
+      "**/server/**/[id]/index**.ts": "${dirname(1)} - id - index.${extname}",
+      "**/server/**/index**.ts": "${dirname} - index.${extname}"
+   },
+   "workbench.editor.enablePreview": false,
+   "js/ts.updateImportsOnFileMove.enabled": "never",
+   "[typescript]": {
+      "editor.defaultFormatter": "oxc.oxc-vscode"
+   },
+   "[vue]": {
+      "editor.defaultFormatter": "oxc.oxc-vscode"
+   }
+}

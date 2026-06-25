@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme static {
+   --font-sans: Poppins, sans-serif;
+}
+
+h1 {
+   font-family: Outfit, sans-serif;
+}
+
+@utility scrollbar-styled {
+   @apply overflow-y-auto scrollbar-thin scrollbar-thumb-neutral-500 scrollbar-track-neutral-400/10;
+}
+
+@utility debug {
+   @apply border border-red-500;
+}
