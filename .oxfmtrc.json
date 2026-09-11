@@ -1,11 +1,11 @@
 {
-   "$schema": "./node_modules/oxfmt/configuration_schema.json",
-   "tabWidth": 3
-   // "ignorePatterns": [],
-   //  "experimentalTailwindcss": {
-   //     "stylesheet": "./app/assests/main.css",
-   //     "attributes": ["class", "ui"],
-   //     "functions": [],
-   //     "preserveWhitespace": false
-   //  }
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "tabWidth": 3,
+  // "ignorePatterns": [],
+  "experimentalTailwindcss": {
+    "stylesheet": "./app/assests/main.css",
+    "attributes": ["class", "ui"],
+    "functions": [],
+    "preserveWhitespace": false
+  }
 }
