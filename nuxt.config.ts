@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
    compatibilityDate: "2025-07-15",
    devtools: { enabled: true },
-   modules: [],
+   modules: ["@nuxt/icon"],
    css: ["~/assets/css/main.css"],
 
    experimental: {
@@ -14,5 +14,12 @@ export default defineNuxtConfig({
 
    vite: {
       plugins: [tailwindcss()],
+   },
+
+   icon: {
+      clientBundle: {
+         scan: true,
+         sizeLimitKb: 256,
+      },
    },
 });

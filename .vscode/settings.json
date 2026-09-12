@@ -27,5 +27,6 @@
    },
    "[vue]": {
       "editor.defaultFormatter": "oxc.oxc-vscode"
-   }
+   },
+   "conventionalCommits.scopes": ["todo-app"]
 }

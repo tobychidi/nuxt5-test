@@ -6,7 +6,7 @@ defineRouteMeta({
    },
 });
 
-export default defineHandler((event) => {
+export default defineHandler(() => {
    myFinalTest();
    testTwo();
    return "hello world!!";
