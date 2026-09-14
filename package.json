@@ -11,10 +11,14 @@
    },
    "dependencies": {
       "@ark-ui/vue": "^5.39.1",
+      "@dnd-kit/abstract": "^0.5.0",
+      "@dnd-kit/vue": "^0.5.0",
+      "@formkit/auto-animate": "^0.10.0",
       "@nuxt/icon": "^2.5.1",
       "@vueuse/core": "^14.4.0",
       "consola": "^3.4.2",
       "idb-keyval": "^6.3.0",
+      "klona": "^2.0.6",
       "nuxt": "npm:nuxt-nightly@5.0.0-29708013.7b7595b4",
       "typescript": "^7.0.2",
       "vue": "^3.5.42",
@@ -27,6 +31,6 @@
       "oxfmt": "^0.67.0",
       "oxlint": "^1.82.0",
       "tailwindcss": "^4.3.3",
-      "vite": "^8.2.2"
+      "vite": "^8.3.0"
    }
 }

@@ -34,7 +34,7 @@ h1 {
 }
 
 @utility btn {
-   @apply inline-flex cursor-pointer items-center rounded-xl bg-primary-600 p-2.5 px-4 text-white shadow-lg hover:bg-primary-500 active:scale-98;
+   @apply inline-flex cursor-pointer items-center gap-1 rounded-xl bg-primary-600 p-2.5 px-4 text-white shadow-lg hover:bg-primary-500 active:scale-98;
 }
 
 @keyframes expand-height {
